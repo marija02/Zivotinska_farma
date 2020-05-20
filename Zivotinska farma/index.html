@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="stil/farma.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div style="text-align:center">
+        <h1 style="color:black;">Životinska farma</h1>
+        <p style="color:black;">Kliknite na uputstvo, pre upotrebe :)</p>
+    </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="document.location = 'uputstvo.html'">Uputstvo</button>
+        <button class="tablinks" onclick="document.location = 'autor.html'">O autoru</button>
+        <button class="tablinks" onclick="document.location = 'index.html'">Početna</button>
+    </div>
+    <div class="container">
+    </div>
+    <audio id="myAudio">
+        <source src="audio/cow.mp3" type="audio/ogg">
+      </audio>
+    <audio id="myAudio2">
+        <source src="audio/chicken.mp3" type="audio/ogg">
+      </audio>
+    <audio id="myAudio3">
+        <source src="audio/goose.mp3" type="audio/ogg">
+      </audio>
+    <audio id="myAudio4">
+        <source src="audio/sheep.mp3" type="audio/ogg">
+      </audio>
+    <audio id="myAudio5">
+        <source src="audio/pig.mp3" type="audio/ogg">
+      </audio>
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+        Launch static backdrop modal
+    </button>-->
+    <!-- <img src="slike/cow.jpg" alt="chicken" data-toggle="modal" data-target="#staticBackdrop">-->
+    <div class="red">
+        <div class="slika">
+            <img src="slike/krava.png" alt="krava" data-toggle="modal" data-target="#staticBackdrop" onmouseover="playAudio()" onmouseout="pauseAudio()">
+        </div>
+        <div class="slika">
+            <img src="slike/kokoska.png" alt="kokoska" data-toggle="modal" data-target="#staticBackdrop" onmouseover="playAudio2()" onmouseout="pauseAudio2()">
+        </div>
+        <div class="slika">
+            <img src="slike/guska.png" alt="guska" data-toggle="modal" data-target="#staticBackdrop" onmouseover="playAudio3()" onmouseout="pauseAudio3()">
+        </div>
+        <div class="slika">
+            <img src="slike/ovca.png" alt="ovca" data-toggle="modal" data-target="#staticBackdrop" onmouseover="playAudio4()" onmouseout="pauseAudio4()">
+        </div>
+        <div class="slika">
+            <img src="slike/svinja.png" alt="svinja" data-toggle="modal" data-target="#staticBackdrop" onmouseover="playAudio5()" onmouseout="pauseAudio5()">
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Opis životinje</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Sadrzaj modal
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="farma.js"></script>
+
+
+</body>
+
+</html>

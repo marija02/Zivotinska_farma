@@ -1,0 +1,31 @@
+body,
+h3 {
+    font-family: "Raleway", sans-serif
+}
+
+html {
+    background-color: black;
+    width: 100%;
+}
+
+body {
+    line-height: 1.8;
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.button {
+    background-color: #9494b8;
+    border: none;
+    color: #9494b8;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
